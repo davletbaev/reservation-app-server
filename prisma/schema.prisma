@@ -1,0 +1,66 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["mongoDb"]
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+enum CalendarName {
+  SCHEDULE
+  BIG
+  MEDIUM
+  SMALL
+}
+
+enum BallroomType {
+  VARIES
+  BIG
+  MEDIUM
+  SMALL
+}
+
+enum EventType {
+  SCHEDULE
+  RESERVATION
+}
+
+model Calendar {
+  id        String       @id @map("_id")
+  name      CalendarName @unique
+  syncToken String
+  watchId   String
+  events    Event[]
+
+  @@map("calendars")
+}
+
+model Event {
+  id          String       @id @map("_id")
+  type        EventType
+  title       String
+  description String?
+  startTime   DateTime
+  endTime     DateTime
+  recurrence  String[]
+  ballroom    Ballroom     @relation(fields: [ballroomId], references: [id])
+  ballroomId  BallroomType
+  calendar    Calendar     @relation(fields: [calendarId], references: [name])
+  calendarId  CalendarName
+
+  @@map("events")
+}
+
+model Ballroom {
+  id          BallroomType @id @map("_id")
+  title       String
+  description String
+  events      Event[]
+
+  @@map("ballrooms")
+}
