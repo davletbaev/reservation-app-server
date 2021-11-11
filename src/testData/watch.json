@@ -1,0 +1,53 @@
+{
+    "config": {
+        "url": "https://www.googleapis.com/calendar/v3/calendars/dancestudio25.5%40gmail.com/events?syncToken=CNDzkezd-_MCENDzkezd-_MCGAEg48zTwQE%3D",
+        "method": "GET",
+        "userAgentDirectives": [
+            {
+                "product": "google-api-nodejs-client",
+                "version": "5.0.5",
+                "comment": "gzip"
+            }
+        ],
+        "headers": {
+            "x-goog-api-client": "gdcl/5.0.5 gl-node/14.18.1 auth/7.10.1",
+            "Accept-Encoding": "gzip",
+            "User-Agent": "google-api-nodejs-client/5.0.5 (gzip)",
+            "Authorization": "Bearer ya29.c.b0AXv0zTOJH_dJdWWG0dmEU3g6fFatWHFmqFyj-GPYMsVyiiQs7W9jnF6o-8-UEqXrA_cLqr7SJRsftCGDd3kfL7HWyMEd89HxRMd2DOfC-GpIlQhP4k731Z4E8QFnEmz-pvlZsNDhVdaZxbfyfkiqrrBgV3NOGCVxDeCA9ZcrjqK-7P30A6R4jDN2-kAcV2EyHvokUbyJRTGPkYs2c5ME5le1SYPQc0o......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................",
+            "Accept": "application/json"
+        },
+        "params": {
+            "syncToken": "CNDzkezd-_MCENDzkezd-_MCGAEg48zTwQE="
+        },
+        "retry": true,
+        "responseType": "json"
+    },
+    "data": {
+        "kind": "api#channel",
+        "id": "01234567-89ab-cdef-0123456789ab",
+        "resourceId": "o3hgv1538sdjfh",
+        "resourceUri": "https://www.googleapis.com/calendar/v3/calendars/my_calendar@gmail.com/events",
+        "token": "target=myApp-myCalendarChannelDest",
+        "expiration": 1426325213000
+    },
+    "headers": {
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+        "cache-control": "private, max-age=0, must-revalidate, no-transform",
+        "connection": "close",
+        "content-encoding": "gzip",
+        "content-type": "application/json; charset=UTF-8",
+        "date": "Mon, 08 Nov 2021 18:28:02 GMT",
+        "expires": "Mon, 08 Nov 2021 18:28:02 GMT",
+        "server": "ESF",
+        "transfer-encoding": "chunked",
+        "vary": "Origin, X-Origin, Referer",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-xss-protection": "0"
+    },
+    "status": 200,
+    "statusText": "OK",
+    "request": {
+        "responseURL": "https://www.googleapis.com/calendar/v3/calendars/dancestudio25.5%40gmail.com/events?syncToken=CNDzkezd-_MCENDzkezd-_MCGAEg48zTwQE%3D"
+    }
+}

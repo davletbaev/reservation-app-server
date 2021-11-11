@@ -1,0 +1,239 @@
+{
+    "config": {
+      "url": "https://www.googleapis.com/calendar/v3/calendars/dancestudio25.5%40gmail.com/events?syncToken=CNDzkezd-_MCENDzkezd-_MCGAEg48zTwQE%3D",
+      "method": "GET",
+      "userAgentDirectives": [
+        {
+          "product": "google-api-nodejs-client",
+          "version": "5.0.5",
+          "comment": "gzip"
+        }
+      ],
+      "headers": {
+        "x-goog-api-client": "gdcl/5.0.5 gl-node/14.18.1 auth/7.10.1",
+        "Accept-Encoding": "gzip",
+        "User-Agent": "google-api-nodejs-client/5.0.5 (gzip)",
+        "Authorization": "Bearer ya29.c.b0AXv0zTOJH_dJdWWG0dmEU3g6fFatWHFmqFyj-GPYMsVyiiQs7W9jnF6o-8-UEqXrA_cLqr7SJRsftCGDd3kfL7HWyMEd89HxRMd2DOfC-GpIlQhP4k731Z4E8QFnEmz-pvlZsNDhVdaZxbfyfkiqrrBgV3NOGCVxDeCA9ZcrjqK-7P30A6R4jDN2-kAcV2EyHvokUbyJRTGPkYs2c5ME5le1SYPQc0o......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................",
+        "Accept": "application/json"
+      },
+      "params": {
+        "syncToken": "CNDzkezd-_MCENDzkezd-_MCGAEg48zTwQE="
+      },
+      "retry": true,
+      "responseType": "json"
+    },
+    "data": {
+      "kind": "calendar#events",
+      "etag": "\"p32ke1mdhki4f80g\"",
+      "summary": "Dance Studio 25.5 (3 зала) 944-25-58",
+      "description": "Dance Studio 25.5 (3 зала) \nтел.: 944-25-58",
+      "updated": "2021-11-08T07:52:27.945Z",
+      "timeZone": "Europe/Moscow",
+      "accessRole": "reader",
+      "defaultReminders": [],
+      "nextSyncToken": "CKjg2bGkiPQCEKjg2bGkiPQCGAEg48zTwQE=",
+      "items": [
+        {
+          "kind": "calendar#event",
+          "etag": "\"3272567687418000\"",
+          "id": "05vo7fcqqv5o2e4fiatfu9r5kh",
+          "status": "confirmed",
+          "htmlLink": "https://www.google.com/calendar/event?eid=MDV2bzdmY3FxdjVvMmU0ZmlhdGZ1OXI1a2hfMjAyMTAzMTJUMTYwMDAwWiBkYW5jZXN0dWRpbzI1LjVAbQ",
+          "created": "2020-08-10T16:46:06.000Z",
+          "updated": "2021-11-07T11:17:23.709Z",
+          "summary": "Twerk",
+          "description": "Расписание занятий: Пн/Пт - 19:00 \nНачинающая группа \nПреподаватель: Елизавета Терехова",
+          "creator": {
+            "email": "dancestudio25.5@gmail.com",
+            "self": true
+          },
+          "organizer": {
+            "email": "dancestudio25.5@gmail.com",
+            "self": true
+          },
+          "start": {
+            "dateTime": "2021-03-12T19:00:00+03:00",
+            "timeZone": "Europe/Moscow"
+          },
+          "end": {
+            "dateTime": "2021-03-12T20:00:00+03:00",
+            "timeZone": "Europe/Moscow"
+          },
+          "recurrence": [
+            "RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20211107T205959Z;BYDAY=FR,MO"
+          ],
+          "iCalUID": "05vo7fcqqv5o2e4fiatfu9r5kh@google.com",
+          "sequence": 2,
+          "reminders": {
+            "useDefault": true
+          },
+          "eventType": "default"
+        },
+        {
+          "kind": "calendar#event",
+          "etag": "\"3272567687418000\"",
+          "id": "05vo7fcqqv5o2e4fiatfu9r5kh_R20211108T160000",
+          "status": "confirmed",
+          "htmlLink": "https://www.google.com/calendar/event?eid=MDV2bzdmY3FxdjVvMmU0ZmlhdGZ1OXI1a2hfMjAyMTExMDhUMTYwMDAwWiBkYW5jZXN0dWRpbzI1LjVAbQ",
+          "created": "2020-08-10T16:46:06.000Z",
+          "updated": "2021-11-07T11:17:23.709Z",
+          "summary": "Twerk",
+          "description": "Расписание занятий: Пн/Пт - 19:00 \nПродолжающая группа \nПреподаватель: Елизавета Терехова",
+          "creator": {
+            "email": "dancestudio25.5@gmail.com",
+            "self": true
+          },
+          "organizer": {
+            "email": "dancestudio25.5@gmail.com",
+            "self": true
+          },
+          "start": {
+            "dateTime": "2021-11-08T19:00:00+03:00",
+            "timeZone": "Europe/Moscow"
+          },
+          "end": {
+            "dateTime": "2021-11-08T20:00:00+03:00",
+            "timeZone": "Europe/Moscow"
+          },
+          "recurrence": [
+            "RRULE:FREQ=WEEKLY;WKST=MO;BYDAY=FR,MO"
+          ],
+          "iCalUID": "05vo7fcqqv5o2e4fiatfu9r5kh_R20211108T160000@google.com",
+          "sequence": 2,
+          "reminders": {
+            "useDefault": true
+          },
+          "eventType": "default"
+        },
+        {
+          "kind": "calendar#event",
+          "etag": "\"3272570183834000\"",
+          "id": "5a5r5ohhdhgptits2ej8llesu7",
+          "status": "confirmed",
+          "htmlLink": "https://www.google.com/calendar/event?eid=NWE1cjVvaGhkaGdwdGl0czJlajhsbGVzdTdfMjAyMTExMjVUMTkwMDAwWiBkYW5jZXN0dWRpbzI1LjVAbQ",
+          "created": "2021-11-07T11:38:11.000Z",
+          "updated": "2021-11-07T11:38:11.917Z",
+          "summary": "Bachata",
+          "description": "Начинающая группа \nПреподаватели: Наталья Кравченко и Илья Содбоев",
+          "creator": {
+            "email": "dancestudio25.5@gmail.com",
+            "self": true
+          },
+          "organizer": {
+            "email": "dancestudio25.5@gmail.com",
+            "self": true
+          },
+          "start": {
+            "dateTime": "2021-11-25T22:00:00+03:00",
+            "timeZone": "Europe/Moscow"
+          },
+          "end": {
+            "dateTime": "2021-11-25T23:00:00+03:00",
+            "timeZone": "Europe/Moscow"
+          },
+          "recurrence": [
+            "RRULE:FREQ=WEEKLY;WKST=MO;BYDAY=SA,TH"
+          ],
+          "iCalUID": "5a5r5ohhdhgptits2ej8llesu7@google.com",
+          "sequence": 0,
+          "reminders": {
+            "useDefault": true
+          },
+          "eventType": "default"
+        },
+        {
+          "kind": "calendar#event",
+          "etag": "\"3272570480702000\"",
+          "id": "77kpdatbi3hlacef7q4f5gjs75",
+          "status": "confirmed",
+          "htmlLink": "https://www.google.com/calendar/event?eid=NzdrcGRhdGJpM2hsYWNlZjdxNGY1Z2pzNzVfMjAyMTExMTlUMTcwMDAwWiBkYW5jZXN0dWRpbzI1LjVAbQ",
+          "created": "2021-11-07T11:40:40.000Z",
+          "updated": "2021-11-07T11:40:40.351Z",
+          "summary": "Break Dance",
+          "description": "Начинающая группа \nПреподаватель: Кирилл Белоусов",
+          "creator": {
+            "email": "dancestudio25.5@gmail.com",
+            "self": true
+          },
+          "organizer": {
+            "email": "dancestudio25.5@gmail.com",
+            "self": true
+          },
+          "start": {
+            "dateTime": "2021-11-19T20:00:00+03:00",
+            "timeZone": "Europe/Moscow"
+          },
+          "end": {
+            "dateTime": "2021-11-19T21:00:00+03:00",
+            "timeZone": "Europe/Moscow"
+          },
+          "recurrence": [
+            "RRULE:FREQ=WEEKLY;WKST=MO;BYDAY=FR,SU"
+          ],
+          "iCalUID": "77kpdatbi3hlacef7q4f5gjs75@google.com",
+          "sequence": 0,
+          "reminders": {
+            "useDefault": true
+          },
+          "eventType": "default"
+        },
+        {
+          "kind": "calendar#event",
+          "etag": "\"3272570601312000\"",
+          "id": "5rf4bk2593948chfnvj7icp7f0",
+          "status": "confirmed",
+          "htmlLink": "https://www.google.com/calendar/event?eid=NXJmNGJrMjU5Mzk0OGNoZm52ajdpY3A3ZjBfMjAyMTExMjBUMTQwMDAwWiBkYW5jZXN0dWRpbzI1LjVAbQ",
+          "created": "2021-11-07T11:41:40.000Z",
+          "updated": "2021-11-07T11:41:40.656Z",
+          "summary": "Stretching",
+          "description": "Для все уровней \nПреподаватель: Ольга Иванова ",
+          "creator": {
+            "email": "dancestudio25.5@gmail.com",
+            "self": true
+          },
+          "organizer": {
+            "email": "dancestudio25.5@gmail.com",
+            "self": true
+          },
+          "start": {
+            "dateTime": "2021-11-20T17:00:00+03:00",
+            "timeZone": "Europe/Moscow"
+          },
+          "end": {
+            "dateTime": "2021-11-20T18:00:00+03:00",
+            "timeZone": "Europe/Moscow"
+          },
+          "recurrence": [
+            "RRULE:FREQ=WEEKLY;BYDAY=SA"
+          ],
+          "iCalUID": "5rf4bk2593948chfnvj7icp7f0@google.com",
+          "sequence": 0,
+          "reminders": {
+            "useDefault": true
+          },
+          "eventType": "default"
+        }
+      ]
+    },
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+      "cache-control": "private, max-age=0, must-revalidate, no-transform",
+      "connection": "close",
+      "content-encoding": "gzip",
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Mon, 08 Nov 2021 18:28:02 GMT",
+      "expires": "Mon, 08 Nov 2021 18:28:02 GMT",
+      "server": "ESF",
+      "transfer-encoding": "chunked",
+      "vary": "Origin, X-Origin, Referer",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    },
+    "status": 200,
+    "statusText": "OK",
+    "request": {
+      "responseURL": "https://www.googleapis.com/calendar/v3/calendars/dancestudio25.5%40gmail.com/events?syncToken=CNDzkezd-_MCENDzkezd-_MCGAEg48zTwQE%3D"
+    }
+}
+  
