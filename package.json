@@ -2,8 +2,12 @@
   "private": true,
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": "14.18.1"
+  },
   "scripts": {
-    "start": "ts-node-dev ./src/app.ts --inspect",
+    "start": "ts-node-dev ./src/app.ts",
+    "dev": "ts-node-dev ./src/app.ts --inspect",
     "build": "tsc -p .",
     "lint": "eslint ./src/**/*.ts",
     "format": "eslint ./src/**/*.ts --fix",

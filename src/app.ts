@@ -5,7 +5,7 @@ import CalendarAdapter from './modules/calendar';
 import prisma from './modules/prisma';
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT;
 const calendarClient = new CalendarAdapter();
 
 app.use(express.urlencoded({ extended: true }));
