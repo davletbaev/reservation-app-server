@@ -5,10 +5,7 @@ import { randomUUID } from 'crypto';
 
 import { BallroomType, Calendar, CalendarName, EventType, PrismaClient } from '.prisma/client';
 
-const CREDENTIALS_PATH: string = process.env.GOOGLE_APPLICATION_CREDENTIALS || '';
-
-const credentialsData = fs.readFileSync(CREDENTIALS_PATH, 'utf8');
-const credentials = JSON.parse(credentialsData);
+import credentials from '../../credentials/key.json';
 
 const client = new auth.JWT({
   email: credentials.client_email,
