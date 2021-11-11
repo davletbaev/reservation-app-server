@@ -1,0 +1,76 @@
+{
+    "syncToken": "CKjg2bGkiPQCEKjg2bGkiPQCGAEg48zTwQE=",
+    "pageToken": "",
+    "events": [
+        {
+            "id": "05vo7fcqqv5o2e4fiatfu9r5kh",
+            "status": "confirmed",
+            "title": "Twerk",
+            "description": "Расписание занятий: Пн/Пт - 19:00 \nНачинающая группа \nПреподаватель: Елизавета Терехова",
+            "startTime": "2021-03-12T19:00:00+03:00",
+            "endTime": "2021-03-12T20:00:00+03:00",
+            "recurrence": [
+                "RRULE:FREQ=WEEKLY;WKST=MO;UNTIL=20211107T205959Z;BYDAY=FR,MO"
+            ],
+            "type": "SCHEDULE",
+            "ballroomId": "VARIES",
+            "calendarId": "SCHEDULE"
+        },
+        {
+            "id": "05vo7fcqqv5o2e4fiatfu9r5kh_R20211108T160000",
+            "status": "confirmed",
+            "title": "Twerk",
+            "description": "Расписание занятий: Пн/Пт - 19:00 \nПродолжающая группа \nПреподаватель: Елизавета Терехова",
+            "startTime": "2021-11-08T19:00:00+03:00",
+            "endTime": "2021-11-08T20:00:00+03:00",
+            "recurrence": [
+                "RRULE:FREQ=WEEKLY;WKST=MO;BYDAY=FR,MO"
+            ],
+            "type": "SCHEDULE",
+            "ballroomId": "VARIES",
+            "calendarId": "SCHEDULE"
+        },
+        {
+            "id": "5a5r5ohhdhgptits2ej8llesu7",
+            "status": "confirmed",
+            "title": "Bachata",
+            "description": "Начинающая группа \nПреподаватели: Наталья Кравченко и Илья Содбоев",
+            "startTime": "2021-11-25T22:00:00+03:00",
+            "endTime": "2021-11-25T23:00:00+03:00",
+            "recurrence": [
+                "RRULE:FREQ=WEEKLY;WKST=MO;BYDAY=SA,TH"
+            ],
+            "type": "SCHEDULE",
+            "ballroomId": "VARIES",
+            "calendarId": "SCHEDULE"
+        },
+        {
+            "id": "77kpdatbi3hlacef7q4f5gjs75",
+            "status": "confirmed",
+            "title": "Break Dance",
+            "description": "Начинающая группа \nПреподаватель: Кирилл Белоусов",
+            "startTime": "2021-11-19T20:00:00+03:00",
+            "endTime": "2021-11-19T21:00:00+03:00",
+            "recurrence": [
+                "RRULE:FREQ=WEEKLY;WKST=MO;BYDAY=FR,SU"
+            ],
+            "type": "SCHEDULE",
+            "ballroomId": "VARIES",
+            "calendarId": "SCHEDULE"
+        },
+        {
+            "id": "5rf4bk2593948chfnvj7icp7f0",
+            "status": "confirmed",
+            "title": "Stretching",
+            "description": "Для все уровней \nПреподаватель: Ольга Иванова ",
+            "startTime": "2021-11-20T17:00:00+03:00",
+            "endTime": "2021-11-20T18:00:00+03:00",
+            "recurrence": [
+                "RRULE:FREQ=WEEKLY;BYDAY=SA"
+            ],
+            "type": "SCHEDULE",
+            "ballroomId": "VARIES",
+            "calendarId": "SCHEDULE"
+        }
+    ]
+}
