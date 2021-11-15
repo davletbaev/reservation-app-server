@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "engines": {
-    "node": "14.18.1"
+    "node": "14.18.1",
+    "npm": "8.1.2"
   },
   "scripts": {
     "start": "ts-node-dev ./src/app.ts",
