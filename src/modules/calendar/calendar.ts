@@ -1,4 +1,3 @@
-import fs from 'fs';
 import { calendar, auth, calendar_v3 } from '@googleapis/calendar';
 import { GaxiosResponse } from 'gaxios';
 import { randomUUID } from 'crypto';
@@ -165,7 +164,7 @@ class CalendarAdapter implements ICalendar {
         requestBody: {
           id: watchId,
           type: 'webhook',
-          address: `${process.env.DOMAIN}/webhook/events`,
+          address: `${process.env.DOMAIN}webhook/events`,
         },
       })
       .then((res: GaxiosResponse<calendar_v3.Schema$Channel>) => {
